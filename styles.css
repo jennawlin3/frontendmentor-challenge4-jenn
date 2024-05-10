@@ -92,10 +92,10 @@ li:hover {
 	color: hsl(75, 94%, 57%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 968px) {
 	.profile-container {
-		width: 40vw;
-		margin: 20vh auto;
+		width: 500px;
+		margin: 40vh auto;
 	}
 
 	img {
