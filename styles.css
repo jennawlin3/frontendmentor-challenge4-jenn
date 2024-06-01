@@ -3,13 +3,16 @@
 	box-sizing: content-box;
 }
 
-body {
+body {	
+	display: flex;
+	flex-direction: column;
 	background-color: hsl(0, 0%, 8%);
 	overflow-x: hidden;
 	font-family: "Inter", sans-serif;
   	font-optical-sizing: auto;
   	font-style: normal;
-  	font-variation-settings: "slnt" 0;	
+  	font-variation-settings: "slnt" 0;
+	min-height: 100vh;	
   }
 
 .profile-container {
@@ -17,13 +20,12 @@ body {
 	flex-direction: column;	
 	align-items: center;
 	justify-content: center;
-background-color: hsl(0, 0%, 12%);
-width: 80vw;
-min-height: 100vh;
-height: auto;
-padding: 20px 20px;
-margin:30vh auto;
-border-radius: 20px;
+	background-color: hsl(0, 0%, 12%);
+	width: 80vw;
+	height: auto;
+	padding: 20px 20px;
+	margin:30vh auto;
+	border-radius: 20px;
 }
 
 img {
@@ -98,6 +100,7 @@ li:hover {
 	.profile-container {
 		width: 450px;
 		margin: 20vh auto;
+		height: 700px;
 	}
 
 	img {
